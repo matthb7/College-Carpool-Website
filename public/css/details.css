@@ -1,0 +1,17 @@
+.details {
+	position: relative;
+	top: 100px;
+	float: left;
+	text-align: center;
+	padding: 70px 60px;
+	width: 25%;
+}
+
+button {
+	position: relative;
+	margin-top: 50px;
+	margin-left: 100px;
+	float: left;
+	clear: left;
+	width: 10%;
+}

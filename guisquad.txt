@@ -1,0 +1,19 @@
+FILES:
+	guisquad.pem
+	guisquad.ppk
+
+PUTTY:
+	ec2-user@ec2-35-161-84-87.us-west-2.compute.amazonaws.com
+	SSH -> AUTH -> BROWSE -> guisquad.ppk
+
+SQL:
+	Password = guisquad
+	Start -> sudo service mysqld start
+	Stop -> sudo service mysqld stop
+
+sudo service httpd restart
+sudo service mysqld restart
+
+BROWSER:
+	http://ec2-35-161-84-87.us-west-2.compute.amazonaws.com
+	http://ec2-35-161-84-87.us-west-2.compute.amazonaws.com/phpmyadmin
